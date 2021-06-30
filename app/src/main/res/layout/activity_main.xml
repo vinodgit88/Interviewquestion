@@ -97,6 +97,20 @@
             android:textSize="16dp"
             android:textColor="@color/black"
             android:text="Twisted prime number "/>
+        <TextView
+            android:id="@+id/new_question"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:background="@drawable/listview_bg"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="new_question "/>
     </LinearLayout>
 </ScrollView>
 

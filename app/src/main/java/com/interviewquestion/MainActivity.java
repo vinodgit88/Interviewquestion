@@ -19,12 +19,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView abundant_number=findViewById(R.id.abundant_number);
         TextView prime_numberupto100=findViewById(R.id.prime_numberupto100);
         TextView twisted_prime_number=findViewById(R.id.twisted_prime_number);
+        TextView  new_question=findViewById(R.id.new_question);
         twisted_prime_number.setOnClickListener(this);
         prime_numberupto100.setOnClickListener(this);
         abundant_number.setOnClickListener(this);
         happy_number.setOnClickListener(this);
         swap_two_varriavle.setOnClickListener(this);
         disarium_number.setOnClickListener(this);
+        new_question.setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +56,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.twisted_prime_number:
                 Intent twisted_prime_number=new Intent(MainActivity.this,TwistedPrimeNumber.class);
                 startActivity(twisted_prime_number);
+                break;
+            case R.id.new_question:
+//                Intent twisted_prime_number=new Intent(MainActivity.this,TwistedPrimeNumber.class);
+//                startActivity(twisted_prime_number);
                 break;
 
         }
